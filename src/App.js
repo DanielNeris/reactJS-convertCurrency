@@ -1,11 +1,13 @@
 import React from 'react';
+import Routes from './routes';
+import Main from './pages/main/index';
 
-function App() {
-  return (
-    <div className="App">
-      a
-    </div>
-  );
-}
+import './styles.css';
+
+const App = () => (
+  <div className="App">
+    <Routes></Routes>
+  </div>
+);
 
 export default App;
